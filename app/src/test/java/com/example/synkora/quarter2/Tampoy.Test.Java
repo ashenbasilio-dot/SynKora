@@ -6,7 +6,7 @@ public class TampoyTest {
     public void printMyProfile () {
         String myName = "Kayzee";
         String myPet = "Luna";
-        String favFood = "Shrimp
+        String favFood = "Shrimp";
         int age = 17;
 
         System.out.printIn("--- MY DIGITAL PROFILE ---");
