@@ -1,9 +1,9 @@
-package com.example.synkora.quarter2.Practical;
+package com.example.synkora.quarter2.PracticalExam;
 import java.util.Scanner;
 public class TangOrange {
 
     // Skill levels for a student
-    private String studentName;
+    private final String studentName;
     private int programmingSkill;   // 0 - 10
     private int designSkill;        // 0 - 10
     private int communicationSkill; // 0 - 10
@@ -31,8 +31,7 @@ public class TangOrange {
     // Keep skill level between 0 and 10
     private int validate(int level) {
         if (level < 0) return 0;
-        if (level > 10) return 10;
-        return level;
+        return Math.min(level, 10);
     }
 
     // Display current skill profile

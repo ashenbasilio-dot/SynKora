@@ -1,4 +1,4 @@
-package com.example.synkora.quarter2.Practical;
+package com.example.synkora.quarter2.PracticalExam;
 
 public class TeamMatching {
     public static void main(String[] args) {
